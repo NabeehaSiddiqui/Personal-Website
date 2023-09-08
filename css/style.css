@@ -1,0 +1,414 @@
+/*Elements*/
+
+header {
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-bottom: 0px;
+}
+
+h1 {
+    font-size: 45px;
+    text-shadow: 10px 0px 20px #83838386;
+}
+
+h6 {
+    font-size: 34px;
+    line-height: 30px;
+}
+
+body {
+    font-family: 'Raleway', sans-serif;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+span {
+    font-family: 'Noto Nastaliq Urdu', serif;
+}
+
+footer {
+    text-align: center;
+    font-size: 10px;
+    background-color: #fdffe3;
+    vertical-align: top;
+}
+
+ul {
+    margin: 0px;
+}
+
+/*Classes*/
+
+.img-work {
+    overflow: hidden;
+    max-height: 275px;
+    max-width: 200px;
+}
+
+.proj {
+    padding: 50px;
+}
+.qual {
+    padding: 20px;
+}
+
+.mywork-img {
+    height: 350px;
+    width: 500px;
+    border-style: black solid;
+    border-width: 1px;
+}
+
+.mywork-tb {
+    padding: 20px;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+    max-width: 300px;
+    max-height: 50vh;
+}
+
+.tb-header {
+    background-color: #DDE0BD;
+    border-style: solid;
+    border-color: black;
+    border-width: 1px;
+}
+
+.mywork-nav {
+    background-color: #B6A39E;
+}
+
+.abt-nav {
+    background-color: #948B89;
+}
+
+.landing-nav {
+    background-color: #DDE0BD;
+}
+
+.triangle {
+    rotate: 180deg;
+}
+
+.tb-img {
+    width: 125px;
+}
+
+.logo {
+    display: inline;
+    font-weight: bold;
+}
+
+.main-container {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 1192px;
+    height: 450px;
+    padding: 45px;
+    margin-top: 50px;
+}
+
+.mywork-container {
+    border-style: solid;
+    border-width: 1px;
+    max-width: 1192px;
+    height: 550px;
+    padding: 45px;
+    margin-top: 50px;
+}
+
+.abt-container {
+    height: 450px;
+    margin-top: 50px;
+}
+
+.nav-contents {
+    font-family: 'Raleway', sans-serif;
+    font-size: 15px;
+}
+
+.nav-content {
+    text-decoration: none;
+    color: black;
+}
+
+.resume {
+    color: #B6A39E;
+    background-color: black;
+}
+
+.urdu-accent {
+    color: #B6A39E;
+    font-size: 72px;
+    text-shadow: 10px 0px 10px #83838357;
+}
+
+.img-format {
+    display: inline;
+    width: 23px;
+    height: 23px;
+}
+
+.subheading {
+    font-size: 15px;
+    line-height: 10px;
+    margin-bottom: 5px;
+}
+
+.location {
+    line-height: 20px;
+    font-size: 15px;
+    margin-bottom: 10px;
+}
+
+.heading-ns {
+    font-family: 'Raleway', sans-serif;
+    color: #B6A39E;
+    font-weight: normal;
+}
+
+.connect {
+    line-height: 0px;
+    padding: 0px;
+}
+
+.typed-cursor {
+    display: none;
+}
+
+.loading-screen {
+    position: relative;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 0;
+    background-color: #4bedc2;
+    width: 0%;
+    height: 100%;
+}
+
+.load-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    z-index: 10;
+    pointer-events: none;
+}
+
+.image {
+    width: 200px;
+    filter: grayscale(100%);
+    z-index: 1;
+    position: absolute;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.prj-expln {
+    max-height: 70vh;
+}
+
+.carousel-indicators {
+    top: 105%;
+}
+
+.carousel-control-prev,
+.carousel-control-next{
+      top:107%;
+      margin-right: 350px;
+      margin-left: 350px;
+}
+
+.skills {
+    line-height: 15px;
+}
+
+.scribble {
+    position: relative;
+    z-index: 2;
+    left: -10px;
+}
+
+.navbar a {
+    float: left;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+}
+
+.navbar {
+    overflow: hidden;
+    position: fixed;
+    top: 0;
+    width: 94%;
+    z-index: 3;
+}
+
+.qual-card {
+    border-style: solid;
+    border-width: 1px;
+    border-top: 0px;
+    border-bottom: 0px;
+}
+
+.qual-table {
+    padding-left: 55px;
+}
+
+.caption {
+    padding-top: 50px;
+    padding-left: 0px;
+}
+
+/*Id's*/
+
+#landing-pg {
+    background-color: #DDE0BD;
+    padding: 40px;
+    min-height: 100vh;
+}
+
+#aboutme-pg {
+    background-color: #948B89;
+    padding: 40px;
+}
+
+#mywork-pg {
+    background-color: #948B89;
+    padding: 40px;
+    width: 100%;
+}
+
+/* for gmail */
+
+ .contactForm
+{
+    width: 100%;
+    padding: 70px 50px;
+    height: 100%;
+    background: #fdffe3; 
+    border-radius: 22px;
+    font-family: 'Raleway', sans-serif;
+}
+
+ .contactForm h2
+{
+    color: #B6A39E;
+    font-size: 24px;
+    font-weight: 500;
+}
+
+ .contactForm .formBox
+{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+
+ .contactForm .formBox .inputBox
+{
+    position: relative;
+    margin-bottom: 35px;
+}
+
+ .contactForm .formBox .inputBox.w50
+{
+    width: 47%;
+}
+
+ .contactForm .formBox .inputBox.w100
+{
+    width: 100%;
+}
+
+ .contactForm .formBox .inputBox input,
+ .contactForm .formBox .inputBox textarea 
+{
+    width: 100%;
+    resize: none;
+    padding: 5px 0;
+    font-size: 18px;
+    font-weight: 300;
+    color: #333;
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #777;
+    background-color: #fdffe3;
+}
+
+ .contactForm .formBox .inputBox textarea 
+{
+    height: 120px;
+}
+
+ .contactForm .formBox .inputBox span 
+{
+    font-family: 'Raleway', sans-serif;
+    position: absolute;
+    left: 0;
+    padding: 5px 0;
+    pointer-events: none;
+    font-size: 18px;
+    font-weight: 300;
+    transition: 0.3s;
+}
+
+ .contactForm .formBox .inputBox input:focus ~ span,
+ .contactForm .formBox .inputBox input:valid ~ span,
+ .contactForm .formBox .inputBox textarea:focus ~ span, 
+ .contactForm .formBox .inputBox textarea:valid ~ span
+{
+    transform: translateY(-20px);
+    font-size:  12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    color: #B6A39E;
+    font-weight: 500;
+} 
+
+/* Css for the submit button */
+ .contactForm .formBox .inputBox input[type="submit"]         
+{
+    position: relative;
+    cursor: pointer;
+    background: #B6A39E;
+    border-radius: 20px;
+    color: #fdffe3;
+    border: none;
+    max-width: 150px;
+    padding: 12px;
+
+}
+
+.contactForm .formBox .inputBox input[type="submit"]:hover{
+    background: #B6A39E;
+}
+
+.custom-shape-divider-top-1682282806 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+}
+
+.custom-shape-divider-top-1682282806 svg {
+    position: relative;
+    display: block;
+    width: calc(221% + 1.3px);
+    height: 73px;
+    transform: rotateY(180deg);
+}
+
+.custom-shape-divider-top-1682282806 .shape-fill {
+    fill: #DDE0BD;
+}
