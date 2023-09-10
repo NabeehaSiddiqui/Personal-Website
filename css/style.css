@@ -51,25 +51,23 @@ ul {
 .proj {
     padding: 50px;
 }
+
 .qual {
     padding: 20px;
 }
 
 .mywork-img {
-    height: 350px;
-    width: 500px;
-    border-style: black solid;
-    border-width: 1px;
+    max-height: 350px;
+    max-width: 500px;
+    display: block;
 }
 
 .mywork-tb {
-    padding: 20px;
     border-style: solid;
     border-color: black;
     border-width: 1px;
-    max-width: 300px;
-    max-height: 50vh;
 }
+
 
 .tb-header {
     background-color: #DDE0BD;
@@ -95,7 +93,9 @@ ul {
 }
 
 .tb-img {
-    width: 125px;
+    size: 75%;
+    display: flex;
+    align-items: center;
 }
 
 .logo {
@@ -106,8 +106,6 @@ ul {
 .main-container {
     border-style: solid;
     border-width: 1px;
-    max-width: 1192px;
-    height: 450px;
     padding: 45px;
     margin-top: 50px;
 }
@@ -115,8 +113,6 @@ ul {
 .mywork-container {
     border-style: solid;
     border-width: 1px;
-    max-width: 1192px;
-    height: 550px;
     padding: 45px;
     margin-top: 50px;
 }
@@ -202,12 +198,10 @@ ul {
 }
 
 .image {
-    width: 200px;
+    width: 15%;
     filter: grayscale(100%);
     z-index: 1;
     position: absolute;
-    margin-left: 10px;
-    margin-right: 10px;
 }
 
 .prj-expln {
@@ -218,11 +212,14 @@ ul {
     top: 105%;
 }
 
-.carousel-control-prev,
-.carousel-control-next{
-      top:107%;
-      margin-right: 350px;
-      margin-left: 350px;
+.carousel-control-prev {
+    top: 107%;
+    left: 25%;
+}
+
+.carousel-control-next {
+    top: 107%;
+    right: 25%;
 }
 
 .skills {
@@ -282,30 +279,27 @@ ul {
 #mywork-pg {
     background-color: #948B89;
     padding: 40px;
-    width: 100%;
+    height: 75%;
 }
 
 /* for gmail */
 
- .contactForm
-{
+.contactForm {
     width: 100%;
     padding: 70px 50px;
     height: 100%;
-    background: #fdffe3; 
+    background: #fdffe3;
     border-radius: 22px;
     font-family: 'Raleway', sans-serif;
 }
 
- .contactForm h2
-{
+.contactForm h2 {
     color: #B6A39E;
     font-size: 24px;
     font-weight: 500;
 }
 
- .contactForm .formBox
-{
+.contactForm .formBox {
     position: relative;
     display: flex;
     justify-content: space-between;
@@ -313,25 +307,21 @@ ul {
     padding-top: 30px;
 }
 
- .contactForm .formBox .inputBox
-{
+.contactForm .formBox .inputBox {
     position: relative;
     margin-bottom: 35px;
 }
 
- .contactForm .formBox .inputBox.w50
-{
+.contactForm .formBox .inputBox.w50 {
     width: 47%;
 }
 
- .contactForm .formBox .inputBox.w100
-{
+.contactForm .formBox .inputBox.w100 {
     width: 100%;
 }
 
- .contactForm .formBox .inputBox input,
- .contactForm .formBox .inputBox textarea 
-{
+.contactForm .formBox .inputBox input,
+.contactForm .formBox .inputBox textarea {
     width: 100%;
     resize: none;
     padding: 5px 0;
@@ -344,13 +334,11 @@ ul {
     background-color: #fdffe3;
 }
 
- .contactForm .formBox .inputBox textarea 
-{
+.contactForm .formBox .inputBox textarea {
     height: 120px;
 }
 
- .contactForm .formBox .inputBox span 
-{
+.contactForm .formBox .inputBox span {
     font-family: 'Raleway', sans-serif;
     position: absolute;
     left: 0;
@@ -361,22 +349,20 @@ ul {
     transition: 0.3s;
 }
 
- .contactForm .formBox .inputBox input:focus ~ span,
- .contactForm .formBox .inputBox input:valid ~ span,
- .contactForm .formBox .inputBox textarea:focus ~ span, 
- .contactForm .formBox .inputBox textarea:valid ~ span
-{
+.contactForm .formBox .inputBox input:focus~span,
+.contactForm .formBox .inputBox input:valid~span,
+.contactForm .formBox .inputBox textarea:focus~span,
+.contactForm .formBox .inputBox textarea:valid~span {
     transform: translateY(-20px);
-    font-size:  12px;
+    font-size: 12px;
     font-weight: 400;
     letter-spacing: 1px;
     color: #B6A39E;
     font-weight: 500;
-} 
+}
 
 /* Css for the submit button */
- .contactForm .formBox .inputBox input[type="submit"]         
-{
+.contactForm .formBox .inputBox input[type="submit"] {
     position: relative;
     cursor: pointer;
     background: #B6A39E;
@@ -388,7 +374,7 @@ ul {
 
 }
 
-.contactForm .formBox .inputBox input[type="submit"]:hover{
+.contactForm .formBox .inputBox input[type="submit"]:hover {
     background: #B6A39E;
 }
 
