@@ -168,6 +168,12 @@ ul {
 }
 
 .connect {
+    margin-top: -1%;
+    margin-bottom: -2%;
+    padding: 0px;
+}
+
+.thanks-connect {
     line-height: 30px;
     padding: 0px;
 }
