@@ -166,6 +166,10 @@ ul {
     padding: 0px;
 }
 
+.text-body {
+    height: 55px;
+}
+
 .thanks-connect {
     line-height: 30px;
     padding: 0px;
@@ -173,6 +177,7 @@ ul {
 
 .typed-cursor {
     display: none;
+    animation-iteration-count: infinite;
 }
 
 .loading-screen {
@@ -260,6 +265,10 @@ ul {
 .caption {
     padding-top: 50px;
     padding-left: 0px;
+}
+
+.description {
+    position: fixed;
 }
 
 /*Id's*/
