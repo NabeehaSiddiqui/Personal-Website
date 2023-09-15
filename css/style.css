@@ -29,13 +29,6 @@ span {
     font-family: 'Noto Nastaliq Urdu', serif;
 }
 
-footer {
-    text-align: center;
-    font-size: 10px;
-    background-color: #fdffe3;
-    vertical-align: top;
-}
-
 ul {
     margin: 0px;
 }
@@ -288,14 +281,13 @@ ul {
     height: 75%;
 }
 
-/* for gmail */
+/* for form */
 
 .contactForm {
     width: 100%;
     padding: 70px 50px;
     height: 100%;
     background: #fdffe3;
-    border-radius: 22px;
     font-family: 'Raleway', sans-serif;
 }
 
